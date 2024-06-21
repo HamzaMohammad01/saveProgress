@@ -1,0 +1,19 @@
+{
+	"name": "saveprogress",
+	"version": "1.0.0",
+	"description": "It saves the progress in the local storage of quran.com",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/HamzaMohammad01/saveProgress.git"
+	},
+	"author": "Hamza Mohammad",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/HamzaMohammad01/saveProgress/issues"
+	},
+	"homepage": "https://github.com/HamzaMohammad01/saveProgress#readme"
+}

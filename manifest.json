@@ -1,0 +1,16 @@
+{
+	"name": "Save Progress",
+	"version": "1.0.0",
+	"manifest_version": 3,
+	"description": "It saves the progress in the local storage of quran.com",
+	"permissions": ["storage", "tabs"],
+	"content_scripts": [
+		{
+			"matches": ["https://*.quran.com/*"],
+			"js": ["./popup/contentScript.js"]
+		}
+	],
+	"action": {
+		"default_popup": "popup/index.html"
+	}
+}
